@@ -1,0 +1,73 @@
+@-moz-document regexp("https?://venturo.mercateo.lan:8180/eclass.explorer/.*") {
+	body {
+		background-color: #303030;
+		color: #fff !important;
+	}
+	.header {
+		z-index: 10;
+	}
+	img,
+	.line,
+	.half-line {
+		opacity: 0.5;
+	}
+	form.search .wrap,
+	form div.select .selectWrap {
+		border: none;
+		background-color: #404040;
+		padding: 0px;
+	}
+	form.search input,
+	form div.select select,
+	form.search .wrap,
+	form div.select .selectWrap {
+		background-color: #404040 !important;
+		color: #dddddd !important;
+	}
+	form.search button {
+		background-color: #808080 !important;
+	}
+	.tab-row ul li a {
+		border-top: none;
+		color: #bbf;
+	}
+	.tab-row ul li.head {
+		color: #fff;
+	}
+	table,
+	tr,
+	td {
+		background-color: #303030;
+	}
+	table.wicket-tree-content table.icon-panel a,
+	a.link {
+		color: #ddd !important;
+	}
+	td.content:hover,
+	a.link:hover,
+	a.selected {
+		background-color: #505050 !important;
+		color: #ddd !important;
+	}
+	table.wicket-tree-content.selected td.content,
+	table.wicket-tree-content.selected td.content a span,
+	a.selected {
+		background-color: #606060 !important;
+		color: #ddd !important;
+	}
+	form.search .wrap,
+	form div.select .selectWrap {
+		border: none;
+		background-color: #fff;
+		padding: 0px;
+	}
+	form.search input,
+	form div.select select {
+		background-color: #fff;
+		color: #000;
+	}
+	h1.disabled {
+		background-color: #404040;
+		color: #aaa;
+	}
+}

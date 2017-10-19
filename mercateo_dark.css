@@ -1,0 +1,500 @@
+@-moz-document regexp("^https?://(www|franklin[0-9]{1,3}.intern).mercateo.(com|[a-z]{2})([.][a-z]{2})?(:[0-9]+)?/(?!catalog.management.front.*).*$") {
+	body {
+		background-color: #202020;
+		color: #bbb;
+	}
+	select,
+	input,
+	textarea {
+		background-color: #303030;
+		color: #bbb;
+		border-radius: 4px;
+		border: 1px solid #808080;
+	}
+	option {
+		color: #d0d0d0;
+	}
+	.m-header {
+		background-color: #303030;
+		color: #dddddd;
+	}
+	a,
+	a.fs_2.hc_3.c_1.plvistedeffect.plhovereffect,
+	a.fs_2.hc_3.c_1.plvistedeffect.plhovereffect:visited,
+	a.fs_2.hc_3.plvistedeffect.cellClick.plhovereffect.c_3,
+	a.fs_2.hc_3.plvistedeffect.cellClick.plhovereffect.c_3:visited {
+		color: #bbb;
+	}
+	a:hover {
+		color: #cc4 !important;
+	}
+	td.balken-top {
+		background: #404040;
+		border: 1px solid #303030;
+	}
+	td.bd05rb {
+		border-color: #101010;
+	}
+	.btn_typ_product,
+	.btn_typ_process {
+		background-color: #822 !important;
+		border: none;
+		box-shadow: inset -1px -1px 3px #411, inset 1px 1px 2px #c44 !important;
+		text-shadow: 1px 1px 0px #bf1607 !important;
+		;
+	}
+	img {
+		opacity: 0.5;
+	}
+	img:hover {
+		opacity: 0.8;
+	}
+	/* menu bar */
+	#cssmenu {
+		border-top: 1px solid #606060;
+		background: linear-gradient(to top, #404040 0, #606060 100%)
+	}
+	#cssmenu .mainlink {
+		color: #bbb;
+		text-shadow: 1px 1px 0 rgba(50, 50, 50, 0.5);
+	}
+	#cssmenu .item.on.has_sub:hover,
+	#cssmenu .item.has_sub.hover,
+	#cssmenu .item.show,
+	#cssmenu .item ul {
+		background: #606060;
+		border: 1px solid #606060;
+	}
+	#cssmenu .searchfield-outer {
+		background-color: #101010;
+	}
+	#cssmenu .item {
+		border-bottom: 1px solid #606060
+	}
+	.autocomplete {
+		color: #cccccc;
+		background-color: #303030;
+	}
+	.item.BD05,
+	#cssmenu .BD05.bw_0001 {
+		border: 0px;
+	}
+	/*breaks the melitta menu
+	  body>*>*>*:not(:empty),
+	*/
+	.ui-menu-item {
+		color: #ccc;
+		background-color: #202020 !important;
+	}
+	.ui-widget-content a {
+		color: #ccc;
+	}
+	* {
+		/*
+		color: #bbb !important;
+		*/
+		box-shadow: 0 0 0 #333 !important
+	}
+	#cssmenu .searchfield-outer {
+		display: block;
+		border-radius: 3px;
+		box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.05);
+		padding: 0 5px 0 25px;
+		margin-left: 10px;
+		font-size: 13px;
+		background: #202020 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAA9ElEQVR42pWRy2oCQRBFGwQhQgQRt0EYECHGx4/kPwKGgDtfZCOYQMhKfHycC9fGjaIiM854Ciqg7fSgBYc73VV3qrvaGEdEUVSCd9/3v9A3KJqkoCBN8Rg9hmEYwUaUYNv/RlOxRpITMaE/aAHy8MJ6ioboIK5bRU3DmNwr+zP0AE92sg8BPDqu4Wm+aR9T7rZIuH+B+y6vTkSiq3/MOIw5zX/YiZpOsOcY3K8aPdvYgL2MXrundf9Bjvc/7TjTSjvuZPTEGp3DVtZBEIwu3vHcBH9816EKn/oEHVnbnZ5tk7klKGyraSnDMbcGxVloQdncESdDeVAfCeJ5FAAAAABJRU5ErkJggg==) no-repeat 5px center;
+	}
+	#cssmenu[style*="background: lightgreen"] {
+		background: #565 !important;
+	}
+	/* start page */
+	.m-theme-redesign a {
+		color: #cccccc;
+	}
+	.m-theme-redesign {
+		color: #ddd;
+	}
+	.m-theme-redesign .m-category-item-subcategories {
+		background-color: #505050;
+	}
+	.m-category-item-text:hover {
+		color: #ffa500;
+	}
+	.m-flag-body:hover {
+		color: #ffa500;
+	}
+	.m-type-link-small:hover {
+		color: #ffa500 !important;
+	}
+	/* search results */
+	.explainedArticle {
+		background-color: #505050;
+	}
+	div.fs_2.BD14[style] {
+		border-width: 0px !important;
+		margin-left: 5px;
+	}
+	.BD05.bw_0110 {
+		border: 0px;
+		border-right: 1px solid #303030;
+		border-bottom: 1px solid #303030;
+	}
+	.pageLoadingBar,
+	.preloadHeader {
+		border: 1px solid #888800;
+		background-color: #444000;
+	}
+	.kwrel2,
+	.winkel10 {
+		background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAJCAYAAAD+WDajAAAAFElEQVR42mNYsWLFfwZcYJhJ4sIAswcseptrO/MAAAAASUVORK5CYII=') !important;
+	}
+	/* angle gif */
+	.winkel10 {
+		margin: 2px 0px 2px 0px;
+		padding-left: 14px;
+		background-repeat: no-repeat;
+		background-position: 3px 0.0em;
+	}
+	/* angle gif */
+	.ng-pristine.ng-valid .BD08 table {
+		background-color: #252525;
+	}
+	td.bd05rb {
+		border-color: #303030;
+	}
+	.editLoc_untranslated {
+		background-color: #aa0000;
+	}
+	tr.B14.he td.B2.bd05rb.picCol {
+		background-color: #303030;
+	}
+	.pictooltip {
+		background-color: #222222;
+	}
+	.translationSpan {
+		color: #222222;
+	}
+	div.m5.B2[style] {
+		border: 1px solid #808080 !important;
+	}
+	a.tooltip span.tt_container {
+		background: #303030;
+	}
+	a.tooltip span.tt_container,
+	.tt_head {
+		color: #202020 !important;
+	}
+	.tt_p5 {
+		background-color: #505050;
+		color: #ddd;
+	}
+	.blboxAddOptions {
+		background-color: #303030;
+	}
+	.blboxIndOptionsHeader {
+		background-color: #353535;
+	}
+	/* features */
+	li.kwlist,
+	li.kw1 {
+		background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAABNJREFUGFdj+F+v/h+GcXHU/wMA0TAXxcop62MAAAAASUVORK5CYII=');
+		/*bullet*/
+	}
+	li.kwlist_head span.fw_b a,
+	li.kwlist_head span.fw_b {
+		color: #c0c0c0;
+	}
+	li.kwlist a,
+	li.kwlist_plain a {
+		color: #b0b0b0;
+	}
+	/* pds */
+	.withtooltip[style*="text-decoration:none;background-color:#FFFF00;"] {
+		background-color: #440 !important;
+	}
+	.withtooltip[style*="text-decoration:none;background-color:#00FF00;"] {
+		background-color: #660 !important;
+	}
+	.withtooltip[style*="text-decoration:none;background-color:#0000FF;"] {
+		background-color: #004 !important;
+	}
+	.balloon {
+		background-image: none;
+	}
+	table.fs_2 td.B2[style] {
+		border-left: 0px !important;
+	}
+	td.BD02 div a {
+		text-decoration: none;
+	}
+	html td.BD05.B2 table.BD02 tbody tr table tbody tr td[style] {
+		border-top: 0px !important;
+	}
+	span.B13 {
+		background-color: #505050;
+	}
+	/* doublet matching ean coloring in doublet table */
+	.balken-top-gray.br_02 {
+		border-right: 1px solid #181818;
+	}
+	div.selected,
+	div.normal {
+		color: #c0c0c0;
+		background-color: #181818;
+	}
+	body[style] {
+		background-color: #151515 !important;
+	}
+	.bb_05 {
+		border-bottom: none;
+	}
+	.fs_2.BD05.bw_0001 td.bd05rb {
+		border-color: #707070;
+	}
+	td.B14.c_6.bd05rb {
+		border: none;
+	}
+	.br_02 {
+		border-right: none;
+	}
+	tr.br_02.a2b2[style] {
+		background-image: none !important;
+		background-color: #774400;
+	}
+	.T4 {
+		background-color: #404040;
+	}
+	.T2 {
+		background-color: #505050;
+	}
+	.tt_container.BD03.B2 table,
+	.tt_container.BD03.B2 td {
+		background-color: #505050;
+	}
+	/* general */
+	.infocontent.BD08.B13.c_1 {
+		background-color: #252525;
+	}
+	.a2a1 {
+		color: #dddddd;
+	}
+	.BD02 {
+		border: 1px solid #303030;
+	}
+	.BD04 {
+		border: 1px solid #505050;
+	}
+	.BD05 {
+		border: 1px solid #505050;
+	}
+	.BD08 {
+		border: 1px solid #606060;
+	}
+	.BD14 {
+		border: 1px solid #303030;
+	}
+	.BD15 {
+		border: 1px solid #505050;
+	}
+	.B2 {
+		background-color: #272727;
+	}
+	.B3 {
+		background-color: #303030;
+	}
+	.B4 {
+		background-color: #252525;
+	}
+	.B5 {
+		background-color: #101010;
+	}
+	.B8 {
+		background-color: #101010;
+	}
+	/*next/prev search result page bar with arrow*/
+	.B9 {
+		background-color: #101010;
+	}
+	.B10 {
+		background-color: #454545;
+	}
+	.B13 {
+		background-color: #353535;
+	}
+	.B14 {
+		background-color: #303030;
+	}
+	.B16 {
+		background-color: #202020;
+	}
+	.B18 {
+		background-color: #353535;
+	}
+	.c_1 {
+		color: #bbb !important;
+	}
+	.c_3 {
+		color: #ffa500 !important;
+	}
+	.c_6,
+	.c_8 {
+		color: #bb9 !important;
+	}
+	.c_11 {
+		color: #cccccc !important;
+	}
+	.c_17 {
+		color: #9999bb !important;
+	}
+	.hc_1:hover,
+	.hc_3:hover,
+	.hc_7:hover {
+		color: #ffa500;
+	}
+	.btn_typ_general {
+		color: #dddddd;
+		background-color: #606060;
+		border: 0px;
+		box-shadow: inset -1px -1px 3px #202020, inset 1px 1px 2px #909090;
+		text-shadow: 1px 1px 0px #303030;
+	}
+	.btn_typ_general:hover {
+		color: #bbbbbb;
+	}
+	.translationsDiv {
+		background-color: #202020;
+		color: #ddd;
+	}
+	.dictionaryDiv {
+		background-color: #353545;
+	}
+	/*melitta-menu*/
+	#melittaMenuButton[style] {
+		border: 1px solid #dddddd !important;
+		opacity: 0.5;
+	}
+	.melittaMenuBox,
+	.analysisMenu {
+		background-color: #202020;
+		border: 1px solid #404040;
+	}
+	.melittaTabActive {
+		background-color: #505050;
+	}
+	.melittaTabInactive {
+		background-color: #353535;
+	}
+	.melittaTabInactive:hover {
+		background-color: #404040;
+	}
+	.melittaOptionsSection {
+		background-color: #505050;
+	}
+	.melittaExplainBox {
+		background-color: #454545
+	}
+	.melittaCloseButton,
+	.analysisButton {
+		background-color: #303030 !important;
+	}
+	#blackListDiv[style] {
+		background-color: #505050 !important;
+	}
+	/*explain view*/
+	.explainColors0,
+	.manInfoBgColor0 {
+		background-color: #485F87;
+	}
+	.explainColors1,
+	.manInfoBgColor1 {
+		background-color: #0F7F64;
+	}
+	.explainColors2,
+	.manInfoBgColor2 {
+		background-color: #49763E;
+	}
+	.explainColors3,
+	.manInfoBgColor3 {
+		background-color: #9F6BaF;
+	}
+	.explainColors4,
+	.manInfoBgColor4 {
+		background-color: #9F3510;
+	}
+	.explainColors5,
+	.manInfoBgColor5 {
+		background-color: #44309F;
+	}
+	.explainColors6,
+	.manInfoBgColor6 {
+		background-color: #73654B;
+	}
+	.explainColors7,
+	.manInfoBgColor7 {
+		background-color: #8F857E;
+	}
+	.explainColors8,
+	.manInfoBgColor8 {
+		background-color: #9F8C2B;
+	}
+	.explainColors9,
+	.manInfoBgColor9 {
+		background-color: #2F9817;
+	}
+	span,
+	strong {
+		color: #dddddd;
+	}
+	span.c_8[style] {
+		background-color: #202020 !important;
+	}
+	span[style] {
+		color: #dddddd !important;
+	}
+	a.c_3.fw_b.hv_nl {
+		color: #ffa500;
+	}
+	/*translation analysis*/
+	.topAnalysisDiv {
+		background-color: #101010;
+		border: 1px solid #303030;
+	}
+	.noTranslationFound {
+		background-color: #202020 !important;
+		color: #ffa500 !important;
+	}
+	.analysisComment {
+		color: #606060 !important;
+	}
+	.dictTranslationFound {
+		background-color: #202020;
+		color: #6060a0 !important;
+	}
+	.loading {
+		background-color: #303030 !important;
+	}
+	/*melitta-search*/
+	.ms-color0,
+	.ms-color1,
+	.ms-color2,
+	.ms-color3,
+	.ms-color4,
+	.ms-color5,
+	.ms-color6,
+	.ms-color7 {
+		color: black !important;
+	}
+}
+
+@-moz-document regexp("https?://(www|franklin[0-9]{1,3}.intern).mercateo.(com|[a-z]{2}).+?&explainValuesFor.+") {
+	/*explain view general settings*/
+	body>table {
+		border-collapse: collapse;
+		background-color: #252525;
+	}
+	body>table>tbody>tr>td,
+	body>table>tbody>tr>th {
+		padding: 5px;
+		border: 1px solid #666;
+	}
+}

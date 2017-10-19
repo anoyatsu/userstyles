@@ -1,0 +1,25 @@
+@-moz-document regexp("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/.*") {
+	#header {
+		background-color: #202020;
+		color: #dddddd;
+	}
+	#sections,
+	body {
+		background-color: #303030;
+		color: #dddddd;
+	}
+	input {
+		background-color: #151515;
+		color: #dddddd;
+		border: 1px solid #555555;
+	}
+	select,
+	option {
+		background-color: #151515;
+		color: #dddddd;
+	}
+	button {
+		background-color: #404040;
+		color: #dddddd;
+	}
+}

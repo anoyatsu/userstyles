@@ -1,0 +1,74 @@
+@-moz-document regexp("https?://help.eclipse.org/.*") {
+	body {
+		background-color: #303030;
+		color: #dddddd;
+	}
+	body,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	table,
+	td,
+	caption,
+	th,
+	ul,
+	ol,
+	dl,
+	li,
+	dd,
+	dt {
+		font-family: Arial, Helvetica, sans-serif;
+		color: #dddddd;
+	}
+	a:link {
+		color: #aaaa00;
+	}
+	header {
+		background: #505050;
+		color: #dddddd;
+	}
+	pre {
+		border: 1px dashed #505050;
+		color: #bbbbbb;
+	}
+	.altColor {
+		background-color: #505050;
+	}
+	th.colFirst,
+	th.colLast,
+	th.colOne,
+	.constantValuesContainer th,
+	ul.blockList ul.blockList ul.blockList li.blockList h3,
+	div.details ul.blockList ul.blockList ul.blockList li.blockList h4,
+	div.details ul.blockList ul.blockList ul.blockListLast li.blockList h4 {
+		background: #454545;
+	}
+	.rowColor {
+		background-color: #404040;
+	}
+	ul.blockList ul.blockList li.blockList,
+	ul.blockList ul.blockListLast li.blockList,
+	ul.blockList ul.blockList ul.blockList li.blockList,
+	ul.blockList ul.blockList ul.blockListLast li.blockList {
+		background-color: #303030;
+	}
+	P.SchemaDtdAttlist {
+		color: #aaaa00;
+	}
+	P.SchemaDtd {
+		color: #888800;
+	}
+	span.SchemaTag {
+		color: #ffa500;
+	}
+	H6.CaptionFigColumn {
+		color: #ffff00;
+	}
+	.block {
+		color: #ddd;
+	}
+}

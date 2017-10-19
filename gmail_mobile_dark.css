@@ -1,0 +1,84 @@
+@-moz-document url-prefix("https://mail.google.com/mail/mu/mp") {
+	* {
+		color: #ddd;
+	}
+	input {
+		background-color: #606060;
+		border: 1px solid #636363;
+		border-radius: 3px;
+	}
+	body,
+	.Ug {
+		background-color: #252525 !important;
+	}
+	.gb_uf {
+		background: #303030;
+	}
+	.cn.Rc {
+		background: #303030;
+		border-bottom: 1px solid #505050;
+	}
+	.Jh,
+	.qm,
+	.al,
+	.bl,
+	.Th {
+		background-color: #252525 !important;
+	}
+	.gb_uf::before {
+		background: #505050;
+	}
+	.ol,
+	.Bj {
+		background: #303030;
+		color: #ddd;
+	}
+	.Vm.Qm,
+	.hh.Rc {
+		background-color: #303030;
+		background-image: none;
+	}
+	#ad_,
+	#cv_,
+	#er_,
+	#be_,
+	.Ti,
+	.Ui {
+		background: #252525;
+	}
+	.bj {
+		background-image: none;
+	}
+	.Eh,
+	.ft {
+		background-color: #353535;
+	}
+	.Ei,
+	.yt {
+		background-color: #454545 !important;
+	}
+	.vn,
+	.Oh {
+		background: #505050;
+	}
+	.fc .o.M,
+	.fc .q.m,
+	.Qm .o.M,
+	.Le {
+		filter: invert(70%);
+	}
+	.ms.Qm {
+		background-color: #202020;
+		border: 1px solid #151515;
+	}
+	.Ij {
+		background-color: #202020;
+	}
+	.Ce {
+		filter: grayscale(50%);
+	}
+	.Rz {
+		background-color: #353535;
+		box-shadow: none;
+	}
+}

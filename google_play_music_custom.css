@@ -1,0 +1,18 @@
+@-moz-document domain("play.google.com") {
+	[data-playmidnight*=expanded-queue] #queue-overlay {
+		width: calc(100% - 40px);
+		height: 100%;
+		max-width: 1100px;
+		border: 1px solid #007AA5;
+		/*
+		transform-origin: calc(100% - 10px) calc(100% - 10px);
+		*/
+	}
+	#drawer-panel #player {
+		border-top: 2px solid #303135;
+	}
+	.slider-knob-inner {
+		background-color: #00CAF5 !important;
+		border-radius: 10px !important;
+	}
+}

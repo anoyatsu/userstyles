@@ -1,0 +1,48 @@
+@-moz-document url-prefix("https://translate.google.com/m/translate") {
+	* {
+		color: #ddd;
+	}
+	body.epu-ui,
+	.epu-ui .gt-cc-r-i {
+		background-color: #303030;
+	}
+	.gb_0d,
+	.epu-ui .ls-wrap,
+	.epu-ui .lang-btn {
+		background-color: #404040;
+	}
+	textarea,
+	#source,
+	.source-input {
+		background-color: #707070 !important;
+		color: #fff !important;
+	}
+	.epu-ui .swap,
+	.epu-ui .swap-wrap {
+		background-color: #707070 !important;
+	}
+	.result,
+	.gt-edit {
+		background-color: #1255c4;
+	}
+	.epu-ui .gt-cd {
+		background-color: #454545;
+	}
+	.gt-def-row,
+	.epu-ui .cd-expand-label,
+	.gt-card-ttl-txt,
+	.epu-ui .gt-ex-text,
+	.gt-baf-previous-word-mobile {
+		color: #aad;
+	}
+	.epu-ui .gt-cd-cl,
+	.epu-ui .gt-cd-ncl,
+	.gt-baf-word-selected,
+	.gt-baf-word-selected:hover {
+		color: #000 !important;
+		background-color: #777;
+	}
+	.epu-ui .gt-baf-entry-clickable:hover {
+		background-color: #606060;
+	}
+}
