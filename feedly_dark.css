@@ -1,0 +1,44 @@
+@-moz-document domain("feedly.com") {
+	* {
+		color: #ddd !important;
+	}
+	body.home {
+		background-color: #444;
+	}
+	input {
+		background-color: #222 !important;
+	}
+	#feedlyTabsHolder,
+	#feedlyTabs {
+		background-color: #444;
+	}
+	#addContentPlaceholderFX * {
+		background-color: #333 !important;
+	}
+	#searchBarFX {
+		background-color: #383838;
+		border-bottom: 1px solid #222;
+	}
+	.fx .form .fx-input .clear-input {
+		background-color: #333;
+	}
+	#feedlyPageHolderFX {
+		background-color: #666;
+	}
+	.fx .entry.u0:hover {
+		background-color: #555;
+	}
+	.headerInfo {
+		background-color: #505050;
+	}
+	.unread {
+		background-color: #665;
+	}
+	.floatingEntryContent .headerInfo {
+		border-bottom: 1px solid #333;
+	}
+	.floatingEntryScroller,
+	.floatingEntryScroller * {
+		background-color: #555;
+	}
+}
